@@ -18,7 +18,9 @@ public:
         int length = 0;
         int temp_length = 0;
         int mid = 0;
+        //int output_head = 0;
         ListNode* myNext = head;
+        //ListNode* Output;
 
         while(myNext != nullptr)
         {
@@ -27,17 +29,20 @@ public:
         }
 
         mid = (length / 2) + 1;
+
+        
+
         myNext = head;
 
         while (myNext != nullptr)
         {
-            temp_length++;
-            myNext = myNext->next;
+
             if(temp_length == (mid - 1))
             {
                 break;
             }
-            
+            temp_length++;
+            myNext = myNext->next;
         }
 
         return myNext;
