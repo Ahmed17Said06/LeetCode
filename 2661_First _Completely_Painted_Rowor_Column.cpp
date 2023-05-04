@@ -1,5 +1,7 @@
-// https://leetcode.com/problems/first-completely-painted-row-or-column/
+//Star 
+//Meduim
 
+// https://leetcode.com/problems/first-completely-painted-row-or-column/
 
 //Used 4 hashmaps 2 to store the row number and the column number of each value in the matrix, 
 //and another 2 to track how many visited each row and each column.
